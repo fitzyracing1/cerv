@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "id": "job_seed_int_84",
+      "y": "84",
+      "domain": "integer",
+      "status": "completed",
+      "forwarded_to": "colossus",
+      "x": [2, 3, 4, 6, 7, 12, 14, 21, 28, 42],
+      "factors": [[2, 42], [3, 28], [4, 21], [6, 14], [7, 12]],
+      "prime_factors": [2, 2, 3, 7],
+      "method": "trial_division"
+    },
+    {
+      "id": "job_seed_poly",
+      "y": "x^2 - 5x + 6",
+      "domain": "poly",
+      "status": "completed",
+      "forwarded_to": "colossus",
+      "x": [2, 3],
+      "factors": ["(x - 2)", "(x - 3)"],
+      "method": "rational_root"
+    }
+  ]
+}

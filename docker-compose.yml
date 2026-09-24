@@ -1,0 +1,9 @@
+services:
+  colossus-factor-api:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+    restart: unless-stopped
