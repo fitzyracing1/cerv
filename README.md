@@ -64,3 +64,8 @@ print(c.factor("x^2-5x+6", "poly"))
 | GET | `/v1/forwards` | Inspect forwarded envelopes |
 
 Port **3000**. No external network required at runtime.
+
+## Documentation
+
+- In-repo docs: [docs/](docs/index.md)
+- Wiki: [https://github.com/fitzyracing1/cerv/wiki](https://github.com/fitzyracing1/cerv/wiki)
